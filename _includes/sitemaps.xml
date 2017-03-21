@@ -1,0 +1,10 @@
+
+<url>
+	<loc>{{site.url}}{{site.baseurl}}{{include.p.url}}</loc>
+	{% if include.p.frequency %}
+	<changefreq>{{include.p.frequency}}</changefreq>
+	{% endif %}	
+	{% if include.p.priority %}
+	<priority>{{include.p.priority}}</priority>
+	{% endif %}	
+</url>

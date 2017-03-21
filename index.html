@@ -1,0 +1,40 @@
+---
+layout: default
+priority: 0.8
+frequency: weekly
+---
+
+<div class="container text-justify">
+	<div class="row">
+		<div class="col-md-8">
+			<h2>About Me</h2>
+			{% capture about %}{% include about.md %}{% endcapture %}
+			{{ about | markdownify }}
+
+		</div>
+		<div class="col-md-4">
+			<img src="{{site.baseurl}}/assets/images/me.png" class="main_pic">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-6">
+			<h2>Research Interests</h2>
+			{% capture interests %}{% include interests.md %}{% endcapture %}
+			{{ interests | markdownify }}
+		</div>
+		<div class="col-md-6">
+			<h2>Contact</h2>
+			{% capture contact %}{% include contact.md %}{% endcapture %}
+			{{ contact | markdownify }}
+		</div>
+	</div>
+	<div class="row">
+
+		<div class="col-md-10">
+			<h2>Publications</h2>
+			{% capture publications %}{% include publications.md %}{% endcapture %}
+			{{ publications | markdownify }}
+
+		</div>
+	</div>
+</div>

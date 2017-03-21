@@ -1,0 +1,13 @@
+title: Mohammad Ghasemisharif
+encoding: utf-8
+
+github_username: moebit
+twitter_username: m0eb1t
+
+permalink: pretty
+markdown: redcarpet
+baseurl: "/~mghasemi" 
+exclude: [Gemfile, Gemfile.lock, README.md]
+sass:
+    sass_dir: _sass
+

@@ -1,0 +1,47 @@
+---
+---
+
+$font-family-base: "Copse";
+
+@import "bootstrap";
+
+
+.main_pic {
+  margin: 40px 20px 20px 20px;
+  border-radius: 50%;
+  height: 180px;
+  width: 180px;
+  float: top;
+}
+
+.uic-icon {
+  height: 60px;
+  width: 60px;
+}
+
+.navbar-right  {
+  width: 250px;
+}
+
+//bigger is better here
+.navbar-brand {
+  font-size: 23px;
+}
+
+//don't block text when resizing
+.navbar { 
+  margin-bottom:0px;
+}
+
+//larger font for lists
+li {
+    font-size: 18px;
+}
+
+//social icons
+img[alt="icon"] { 
+  height: 25px;
+  width:  25px;
+ 
+}
+
