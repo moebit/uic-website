@@ -29,6 +29,12 @@ frequency: weekly
 		</div>
 	</div>
 	<div class="row">
+		<div class="col-md-6">
+		<h2> Side Projects </h2>
+			{% capture sideprojects %}{% include sideprojects.md %}{% endcapture %}
+			{{ sideprojects | markdownify }}
+	</div>
+	<div class="row">
 
 		<div class="col-md-10">
 			<h2>Publications</h2>
